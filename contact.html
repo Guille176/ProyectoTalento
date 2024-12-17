@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Green Leaf</title>
+    <link rel="stylesheet" href="/style/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html" class="logo">Green Leaf</a>
+      <ul class="nav-links">
+        <li class="nav-item"><a href="index.html">Inicio</a></li>
+        <li class="nav-item"><a href="about.html">Acerca</a></li>
+        <li class="nav-item"><a href="shop.html">Tienda</a></li>
+        <li class="nav-item"><a href="resenias.html">Reseñas</a></li>
+        <li class="nav-item"><a href="contact.html">Contacto</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="cart-icon">
+          <span class="cart-count">0</span>
+          <div class="carro">🛒</div>
+        </div>
+        <div class="user-profile">
+          <img src="img/hoja.jpg"class="user-avatar"/>
+          </div>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <main>
+      <h1>Contactate con nosotros.</h1>
+      <div class="contenedor-mayor">
+      <div class="map-container">
+        <h1>Nuestra Ubicacion</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.1024496626983!2d-60.51664912349686!3d-31.767691563323726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b44dfcb0845657%3A0x2cd707a33daa6969!2sVivero%20los%20Lirios%20Paisajismo%20Integral!5e0!3m2!1sen!2sar!4v1734199629158!5m2!1sen!2sar" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+      <div class="contact-content">
+        <h1></h1>
+        <form class="contact-form">
+          <input type="text" id="name" placeholder="Nombre" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <textarea id="message" placeholder="Mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        
+      </div>
+    </div>
+    </main>
+
+    <div class="cart-sidebar">
+      <div class="cart-header">
+        <h2>Productos en el carrito</h2>
+        <img  src="img/hoja.jpg" alt="">
+        <button class="close-cart">&times;</button>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          Total: $<span id="cart-total-amount">0</span>
+        </div>
+        <button id="checkout-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+            <line x1="1" y1="10" x2="23" y2="10"></line>
+          </svg>
+          Pagar con tarjeta
+        </button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Green LEAF Todos los derechos reservados.</p>
+        
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

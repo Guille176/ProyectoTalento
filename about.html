@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acerca de Green Leaf</title>
+    <link rel="stylesheet" href="/style/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html" class="logo">Green Leaf</a>
+      <ul class="nav-links">
+        <li class="nav-item"><a href="index.html">Inicio</a></li>
+        <li class="nav-item"><a href="about.html">Acerca</a></li>
+        <li class="nav-item"><a href="shop.html">Tienda</a></li>
+        <li class="nav-item"><a href="resenias.html">Reseñas</a></li>
+        <li class="nav-item"><a href="contact.html">Contacto</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="cart-icon">
+          <span class="cart-count">0</span>
+          <div class="carro">🛒</div>
+        </div>
+        <div class="user-profile">
+          <img src="img/hoja.jpg"class="user-avatar"/>
+          </div>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <main class="texto-acerca">
+      
+        <h1>¿Que es Green Leaf?</h1>
+        <img  src="img/hoja.jpg" alt="">
+        <div class="about-text">
+          <p>
+            Green Leaf es un oasis verde en el corazón de la ciudad. Sus estantes repletos de semillas, fertilizantes y herramientas de todo tipo invitan a los amantes de la naturaleza a sumergirse en un mundo de posibilidades. Desde plantas aromáticas hasta árboles frutales, pasando por una amplia variedad de flores, aquí encontrarás todo lo necesario para crear tu propio jardín soñado. Además, su personal altamente capacitado te brindará asesoramiento personalizado para ayudarte a elegir las especies más adecuadas según tus necesidades y el clima de tu región
+          </p>
+          <br>
+          <p>
+            La naturaleza nos regala una paleta infinita de colores y formas a través de la diversidad de las plantas. Desde los majestuosos árboles que tocan el cielo hasta las diminutas flores que alfombran el suelo, cada especie vegetal es única y aporta su belleza particular a nuestro entorno. Esta asombrosa variedad es el resultado de millones de años de evolución, adaptándose a diferentes climas, suelos y condiciones ambientales. Desde las exuberantes selvas tropicales hasta los áridos desiertos, las plantas han conquistado cada rincón del planeta, demostrando una capacidad de adaptación y supervivencia que nunca deja de sorprendernos.
+          </p>
+          <br>
+          <p>
+            Las herramientas de jardinería son los aliados indispensables para cualquier amante de las plantas. Desde las más sencillas como las palas y rastrillos, hasta las más especializadas como las podadoras y las tijeras de césped, cada una cumple una función específica para cuidar y mantener nuestros jardines. Estas herramientas nos permiten preparar el suelo, plantar, regar, podar, abonar y realizar una infinidad de tareas que garantizan el crecimiento sano y vigoroso de nuestras plantas. Además de su utilidad práctica, las herramientas de jardinería nos permiten conectar con la naturaleza y disfrutar del placer de trabajar la tierra con nuestras propias manos.
+        </p>
+        <br>
+        <p>
+            La jardinería es mucho más que un simple hobby; es una actividad fundamental para mantener el equilibrio de nuestro ecosistema. Las plantas, a través de la fotosíntesis, absorben el dióxido de carbono y liberan oxígeno, purificando el aire que respiramos. Además, sus raíces ayudan a prevenir la erosión del suelo y a retener el agua, evitando inundaciones y sequías. Los jardines, grandes o pequeños, son refugios para una gran variedad de insectos, aves y otros animales, contribuyendo a la biodiversidad y a la polinización de las plantas. En definitiva, la jardinería es una herramienta poderosa para crear un entorno más saludable y sostenible para todos los seres vivos.
+        </p>
+        <br>
+    </main>
+
+    <div class="cart-sidebar">
+      <div class="cart-header">
+        <h2>Productos en el carrito</h2>
+        <img  src="img/hoja.jpg" alt="">
+        <button class="close-cart">&times;</button>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          Total: $<span id="cart-total-amount">0</span>
+        </div>
+        <button id="checkout-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+            <line x1="1" y1="10" x2="23" y2="10"></line>
+          </svg>
+          Pagar con Tarjeta
+        </button>
+      </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Green LEAF Todos los derechos reservados.</p>
+        
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

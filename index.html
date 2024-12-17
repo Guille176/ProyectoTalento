@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Leaf</title>
+    <link rel="stylesheet" href="style/styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+    </style>
+
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html" class="logo">Green Leaf</a>
+      <ul class="nav-links">
+        <li class="nav-item"><a href="index.html">Inicio</a></li>
+        <li class="nav-item"><a href="about.html">Acerca</a></li>
+        <li class="nav-item"><a href="shop.html">Tienda</a></li>
+        <li class="nav-item"><a href="resenias.html">Reseñas</a></li>
+        <li class="nav-item"><a href="contact.html">Contacto</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="cart-icon">
+          <span class="cart-count">0</span>
+          <div class="carro">🛒</div>
+        </div>
+        <div class="user-profile">
+          <img src="img/hoja.jpg"class="user-avatar"/>
+          </div>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <main>
+        <div class="about-content">
+        
+        <h1>La jardinería es mucho más que un hobby</h1>
+        <h1>Es bienestar familiar</h1>
+        
+
+
+
+        </div>
+        <div class="foto-inicio">
+        <img class="imagen-index" src="img/frente.jpg"/>
+        <img class="imagen-index" src="img/mama-hija.jpg"/>
+        <img class="imagen-index" src="img/jardin.jpg"/>
+        </div>
+
+    </main>
+
+    <div class="cart-sidebar">
+      <div class="cart-header">
+        <h2>Productos en el carrito</h2>
+        <img  src="img/hoja.jpg" alt="">
+        <button class="close-cart">&times;</button>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          Total: $<span id="cart-total-amount">0</span>
+        </div>
+        <button id="checkout-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+            <line x1="1" y1="10" x2="23" y2="10"></line>
+          </svg>
+          Tarjeta de Credito
+        </button>
+      </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Green LEAF Todos los derechos reservados.</p>
+        
+      </div>
+    </footer>
+
+  </body>
+</html>
