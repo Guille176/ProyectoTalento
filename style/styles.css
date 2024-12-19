@@ -522,7 +522,7 @@ nav {
   }
   
 /* RESPONSIVE*/
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     nav {
       flex-direction: column;
       align-items: flex-start;
